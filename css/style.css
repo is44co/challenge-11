@@ -358,7 +358,7 @@ border-radius: 10px;
 }
 .exbtn {
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 .exbtn button{
     text-align: center;
@@ -376,7 +376,7 @@ border-radius: 10px;
     display: flex;
     justify-content: space-between;
     padding: 0 7rem ;
-    margin-top:2em;
+    
     background-color: #94A3B8;
     color: #fff;
     flex-wrap: wrap;
@@ -423,5 +423,252 @@ border-radius: 10px;
     margin-bottom: 3rem;
 }
 /* end of col */
+/* start of marie */
+.marie{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4rem 7rem ;
+    padding-top: 4rem;
+    background-color: #F1F5F9;
+}
+.leftmar {
+    flex-wrap: wrap;
+ flex: 1;
+ position: relative;
+
+}
+.leftmar img{
+    z-index:0 ;
+    max-width: 100%;
+    object-fit: cover;
+}
+.leftmar i{
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+
+  background-color:white ;
+  padding: 18px;
+  text-align: center;
+  left: -34px;
+  border-radius: 50%;
+ color: #94A3B8;
+
+}
+.rightmar{
+    flex: 1;
+    display: flex;
+    flex-direction:column ;
+    
+  flex-wrap: wrap;
+}
+.mart{
+    
+margin-top: 6rem;
+color: #94A3B8;
+}
+.mart span{
+    color: #2563EB;
+    
+}
+.maar{
+    margin-top: 2rem;
+    line-height: 1.5;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+/* end of marie */
+/* start of be */
+.be{
+    padding: 0 7rem ;
+display: flex;
+color: #fff;
+background-color:#94A3B8;
+flex-wrap: wrap;
+padding-top: 4rem;
 
 
+}
+
+.leftbe{
+flex: 1 ;
+}
+.leftbe h2{
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+.leftbe p{
+    margin: 1.3rem 0;
+    width: 60%;
+    line-height: 1.7;
+}
+
+
+
+.rightbe{
+flex: 1.5;
+display: flex;
+gap: 3rem;
+
+}
+.leftbe button{
+    text-align: center;
+    height: 40px;
+
+    width: 180px;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-size: 1.1rem;
+    outline: white 1.7px solid;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+.rightbe{
+    display: flex;
+margin-left: 5rem;
+}
+.righbone img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.righbone{
+    background-color: #fff;
+    color: #0F172A;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+.righbone .be1{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    align-items: center;
+    padding: 1rem 0; 
+    
+}
+
+
+/* end of be */
+
+/* start of Art */
+section.art{
+    padding: 0 7rem ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom:4rem ;
+}
+.artup >i,.artup >p{
+    color: #2563EB;
+}
+
+.artup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    
+}
+.artcards{
+    display: flex;
+    gap: 2rem;
+    
+}
+.artcard{
+    flex: 1;
+    position: relative;
+}
+.art-down{
+    margin-top: 1rem;
+}
+.art-down h3{
+    color: #0F172A;
+    margin-bottom: .4rem;
+}
+.art-down p{
+    width: 60%;
+}
+
+.spsp{
+    
+    color: #BE123C;
+    position: absolute;
+top: 20px;
+margin-left: 1rem;
+
+}
+.ar1{
+    background-color:#F3E8FF ;
+    color: #6B21A8;
+padding: 2px;}
+.ar2{
+    background-color:#b9e8c1 ;
+    color: #166534;
+padding: 2px ;}
+.ar3{
+    background-color:#d5ddc7 ;
+    color: #854D0E;
+padding: 2px;}
+/* end of art */
+/* start of add */
+.add{
+    background-color: #0F172A;
+    color: #fff;
+    display: flex;
+    flex-wrap:wrap ;
+    padding: 0 7rem;
+    padding-top: 2rem;
+}
+.leftadd{
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.leftadd h2{
+    font-size: 4.5rem;
+    width: 90%;
+}
+.leftadd button{
+    border-radius: 10px;
+    text-align: center;
+height: 2.8rem;
+width: 9rem;
+color: white;
+border: none;
+margin-top: 4rem;
+background-color:inherit ;
+outline: 1px solid white;
+}
+.rightadd{
+    flex: 1;
+
+}
+
+/* end of Add */
+
+
+/* last */
+.last{
+    margin: 0 7rem;
+    display: flex;
+    justify-content: space-between;
+  padding-top: 4rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid;
+    
+    color: #94A3B8;
+}
+.lastwrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 3rem;
+}
+.lastwrap i{
+    margin-right: 10px;
+}
+/* end of last */
