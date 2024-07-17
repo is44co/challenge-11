@@ -252,12 +252,15 @@ border-radius: 10px;
     background-color: #F1F5F9;
     padding-top: 2rem;
     padding-bottom: 5rem;
+    flex-wrap: wrap;
+
 }
 
 .master .ftitle{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
    
 }
 .master .ftitle p{
@@ -433,6 +436,7 @@ border-radius: 10px;
     background-color: #F1F5F9;
 }
 .leftmar {
+    min-width: 300px;
     flex-wrap: wrap;
  flex: 1;
  position: relative;
@@ -447,13 +451,13 @@ border-radius: 10px;
   position: absolute;
   z-index: 2;
   top: 45%;
-
   background-color:white ;
   padding: 18px;
   text-align: center;
   left: -34px;
   border-radius: 50%;
  color: #94A3B8;
+
 
 }
 .rightmar{
@@ -511,6 +515,8 @@ flex: 1 ;
 flex: 1.5;
 display: flex;
 gap: 3rem;
+flex-wrap: wrap;
+
 
 }
 .leftbe button{
@@ -553,12 +559,17 @@ margin-left: 5rem;
 /* end of be */
 
 /* start of Art */
+.art{
+    display: flex;
+    flex-wrap: wrap;
+}
 section.art{
     padding: 0 7rem ;
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
     margin-bottom:4rem ;
+    flex-wrap: wrap;
 }
 .artup >i,.artup >p{
     color: #2563EB;
@@ -574,10 +585,14 @@ section.art{
     display: flex;
     gap: 2rem;
     
+    flex-wrap:wrap ;
+    
 }
 .artcard{
     flex: 1;
     position: relative;
+    min-width: 300px;
+    
 }
 .art-down{
     margin-top: 1rem;
@@ -619,6 +634,7 @@ padding: 2px;}
     flex-wrap:wrap ;
     padding: 0 7rem;
     padding-top: 2rem;
+    justify-content: space-between;
 }
 .leftadd{
     flex: 1.7;
@@ -641,6 +657,7 @@ border: none;
 margin-top: 4rem;
 background-color:inherit ;
 outline: 1px solid white;
+margin-bottom: 1rem;
 }
 .rightadd{
     flex: 1;
@@ -658,7 +675,7 @@ outline: 1px solid white;
   padding-top: 4rem;
     margin-bottom: 3rem;
     border-bottom: 1px solid;
-    
+    flex-wrap: wrap;
     color: #94A3B8;
 }
 .lastwrap{
@@ -667,8 +684,30 @@ outline: 1px solid white;
     justify-content: space-between;
     gap: 30px;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
 }
 .lastwrap i{
     margin-right: 10px;
 }
 /* end of last */
+/* footer */
+.footer{
+    padding: 0 7rem;
+    margin-bottom: 3rem;
+    color: #94A3B8;
+    display: flex;
+    flex-wrap: wrap ;
+}
+.footup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    flex-wrap:wrap ;
+    width: 100%;
+
+}
+.footup i{
+    color: #94A3B8;
+    font-size: 1.4rem;
+}
+/*  end of Footer */
