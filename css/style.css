@@ -29,7 +29,8 @@ padding-top: 2rem;
 .rightnav{
     display: flex;
     align-items: center;
-    margin-left: auto;http://127.0.0.1:5500/images/hero.png
+    margin-left: auto;
+    flex-wrap: wrap;
   
 }
 nav button{
@@ -48,6 +49,7 @@ nav button{
 section.content{
     flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
  margin-top: 5rem; 
  height: 70vh;
 
@@ -68,6 +70,7 @@ flex-basis: 5rem;
   justify-content: end;
     flex: 1;
     flex-basis: 300px;
+    flex-wrap: wrap;
 }
 .lefthero h1{
     font-size: 5rem;
@@ -92,6 +95,7 @@ width: 50%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+  
 }
 .red-button{
     border-radius: 10px;
@@ -637,15 +641,17 @@ padding: 2px;}
     justify-content: space-between;
 }
 .leftadd{
-    flex: 1.7;
+    flex: 1.6;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+   flex-wrap: wrap;
+  
 }
 .leftadd h2{
-    font-size: 4.5rem;
-    width: 90%;
+    font-size: 3.8rem;
+    max-width: 81%;
+
 }
 .leftadd button{
     border-radius: 10px;
@@ -661,7 +667,9 @@ margin-bottom: 1rem;
 }
 .rightadd{
     flex: 1;
-
+display: flex;
+flex-wrap: wrap;
+max-width: 90%;
 }
 
 /* end of Add */
