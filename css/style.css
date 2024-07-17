@@ -80,7 +80,7 @@ flex-basis: 5rem;
 .lefthero input{
     height: 1.2rem;
     margin: 20px 0;
-    background-image: url('../search.png');
+    background-image: url('..//images/search.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -189,7 +189,7 @@ border-radius: 10px;
 }
 
 .fcard1{
-    background: url('../f1.png');
+    background: url('..//images/f4.png');
    
     background-position: center center;
     
@@ -200,7 +200,7 @@ border-radius: 10px;
  
 }
 .fcard2{
-    background: url('../f2.png');
+    background: url('..//images/f2.png');
     background-position: center center;
     
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@ border-radius: 10px;
 }
 
 .fcard3{
-    background: url('../f3.png');
+    background: url('..//images/f3.png');
     background-position: center center;
     
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ border-radius: 10px;
 }
 
 .fcard4{
-    background: url('../f4.png');
+    background: url('..//images/f4.png');
     background-position: center center;
     
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ border-radius: 10px;
 
 .fcard5{
     
-    background: url('../f5.png');
+    background: url('..//images/f5.png');
     background-position: center center;
     
     background-repeat: no-repeat;
